@@ -1,0 +1,30 @@
+{% extends 'template_base.html' %}
+{% load static %}
+{% block header %}
+<main class="main-structure">
+  <section class="home-main">
+    <div class="videoContainer">
+      <video autoplay loop>
+        <source src="{% static 'images/Timelaps Margny.mp4' %}" type="video/mp4">
+      </video>
+    </div>
+  </section>
+</main>
+{% endblock %}
+{% block actus %}
+<section class="otherS">
+  <div class="introText">
+    <h1 class="titleFirstP">Club</h1>
+    <p class="textIntro">
+      Promouvoir et partager la passion pour le basketball tout en inculquant des valeurs de
+      respect, d'esprit d'équipe, et de dépassement de soi. Que vous soyez un débutant plein d'énergie ou un joueur
+      expérimenté cherchant à affiner ses compétences, ASCC Margny est l'endroit idéal pour vous épanouir dans
+      ce sport passionnant.
+    </p>
+  </div>
+  <div class="actualite">
+    <h2 class="titleFirstP2">Actualités</h2>
+    <div class="vl"></div>
+  </div>
+</section>
+{% endblock %}
