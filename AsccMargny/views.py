@@ -22,3 +22,5 @@ def equipe_view(request):
 def archive_view(request):
     return render(request, 'archive.html')
 
+def r1_view(request):
+    return render(request, 'r1.html')
