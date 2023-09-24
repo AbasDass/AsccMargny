@@ -12,5 +12,5 @@ urlpatterns = [
     path('partenaire/', views.partenaire_view),
     path('equipe/', views.equipe_view),
     path('archive/', views.archive_view),
-
+    path('r1/', views.r1_view),
 ]
